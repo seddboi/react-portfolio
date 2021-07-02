@@ -10,7 +10,7 @@ function App() {
         <h1>Is this thing on?</h1>
         <Navbar />
         <Switch>
-            <Route path='about-me' exact></Route>
+            <Route path='/' exact></Route>
         </Switch>
       </Router>
     </div>
