@@ -1,0 +1,64 @@
+.projects-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-title {
+    color: #ffff;
+    text-shadow: 1px 1px 0 #777, 2px 2px 0 #777, 3px 3px 0 #777, 4px 4px 0 #777, 5px 5px 0 #777, 6px 6px 0 #777, 7px 7px 0 #777, 8px 8px 0 #777, 9px 9px 0 #777, 0 30px 30px #000;
+    text-align: center;
+    font-size: 80px;
+}
+
+#projects-container {
+    width: 77%;
+    background: #FF4E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px 5px #000;
+}
+
+#project-card {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: #666;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#filter {
+    background: #000;
+}
+
+#card-text {
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#filter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    transition: .5s all ease-in;
+}
+
+#filter:hover {
+    opacity: 0;
+    transform: scale(1.2)
+}
+
+/* #gif {
+    
+} */

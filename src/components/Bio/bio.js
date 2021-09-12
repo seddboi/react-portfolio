@@ -3,7 +3,7 @@ import './bio.css'
 
 function Bio() {
     return (
-        <div class='grid-x align-center'>
+        <div class='grid-x align-center' id='top-layer'>
             <div class='callout large' id='about-me'>
             <p><strong>Hi, </strong></p>
             <p><strong>I am a recent University of California: Riverside Graduate with a degree in Applied Mathematics, 

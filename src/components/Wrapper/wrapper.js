@@ -3,6 +3,7 @@ import './wrapper.css';
 import MainHeader from '../MainHeader/mainheader';
 import Bio from '../Bio/bio';
 import Skills from '../Skills/skills';
+import Projects from '../Projects/projects';
 
 function Wrapper() {
     return (
@@ -10,6 +11,7 @@ function Wrapper() {
             <MainHeader />
             <Bio />
             <Skills />
+            <Projects />
         </div>
     )
 }
