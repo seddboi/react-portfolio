@@ -1,14 +1,17 @@
 import React from 'react';
 import './mainheader.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function MainHeader() {
     return (
         <div class='diagonal'>
             <div>
-                <h1><strong class='name'>
-                    Gian Zamora
-                </strong></h1>
-                <h4 class='content'>Frontend Web Developer with experimental knowledge in Full Stack Applications!</h4>
+                <ScrollAnimation animateIn='name-animation'>
+                    <h1><strong class='name'>
+                        Gian Zamora
+                    </strong></h1>
+                </ScrollAnimation>
+                <h4 class='content'>Full Stack Web Developer with a focus on Modern Front End Designs</h4>
             </div>
         </div>
     )

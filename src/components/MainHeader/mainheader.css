@@ -7,18 +7,18 @@ body {
     text-align: center;
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
     animation: color-change-2x 2s linear infinite alternate both;    transform: skewY(11deg);
-    margin-top: 200px;
-    margin-bottom: 300px;;
+    margin-top: 300px;
+    margin-bottom: 600px;;
     box-shadow: 0px 25px 30px #000;
 }
 
 
 
 .content {
-    padding: 50px;
+    padding: 30px;
     margin: 0 auto;
     color: #ffff;
-    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0px 15px 15px #000; 
+    text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px 0 #cccccc, 15px 15px 15px #000; 
      /* text-shadow: /* 0px 0px 0px #777,
                 0px 1px 0px #666,
                 0px 2px 0px #555,
@@ -34,11 +34,16 @@ body {
 .name {
     color: #ffff;
     font-size: 90px;
-    padding-top: 10px;
+    padding-top: 50px;
     margin: 0 auto;
     display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .name-animation {
     -webkit-animation: text-pop-up-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: text-pop-up-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: text-pop-up-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
 }
 
 /* ----------------------------------------------
@@ -66,7 +71,7 @@ body {
               transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
               transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px #000;
+      text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px 0 #cccccc, 5px 5px 0 #cccccc, 6px 6px 0 #cccccc, 7px 7px 0 #cccccc, 8px 8px 0 #cccccc, 9px 9px 0 #cccccc, 50px 50px 30px #000;
     }
   }
   @keyframes text-pop-up-top {
@@ -82,7 +87,7 @@ body {
               transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
               transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px #111;
+              text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px 0 #cccccc, 5px 5px 0 #cccccc, 6px 6px 0 #cccccc, 7px 7px 0 #cccccc, 8px 8px 0 #cccccc, 9px 9px 0 #cccccc, 50px 50px 30px #000;
     }
   }
   
