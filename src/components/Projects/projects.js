@@ -14,7 +14,6 @@ function Projects() {
                     <div id='filter'>
                         <p id='card-text'>Save-A-Shot</p>
                     </div>
-                    
                 </div>
 
                 <div class='card p2' id='project-card'>

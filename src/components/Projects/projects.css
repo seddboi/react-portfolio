@@ -30,6 +30,12 @@
     position: relative;
     text-align: center;
     border-radius: 10px;
+    transition: .5s all ease-in;
+}
+
+#project-card:hover{
+    transform: scale(1.1);
+
 }
 
 #filter {
