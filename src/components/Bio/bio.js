@@ -8,11 +8,10 @@ function Bio() {
             <div class='grid-x align-center' id='top-layer'>
                 <div class='callout large' id='about-me'>
                     <p><strong>Hi, </strong></p>
-                    <p><strong>I am a recent University of California: Riverside Graduate with a degree in Applied Mathematics, 
-                        and am looking to further explore my strengths as a learner and as an achiever. Despite having a background in Mathematics, 
-                        I have spent countless hours building my strengths in developing my own web based applications! 
-                        With my urge to provide quality applications and my drive to work a fast paced environment and meet deadlines, I am sure to
-                        be a great fit in any position I am placed in!</strong> </p>
+                    <p><strong>I'm a Full Stack Developer focusing primarily on contemporary design in web-based applications. Recently earned a certificate 
+                        in full stack web development from UC Riverside Extension, attaining skills like Javascript, Node.js, MySQL and React.js. Known to be a pragmatic designer 
+                        and an inventive designer, focusing primarily on responsive React designs. As a great team player and an intuitive problem-solver, I am excited to provide quality applications 
+                        while working a fast paced environment to meet deadlines.</strong> </p>
                     </div>
             </div>
         </ScrollAnimation>

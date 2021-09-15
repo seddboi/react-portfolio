@@ -1,13 +1,12 @@
 #card {
-
-    background: transparent;
+        background: transparent;
     border: unset;
     background: #FF4E50;  /* fallback for old browsers */
     background: -webkit-linear-gradient(#F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(#F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 8px;
     box-shadow: 0px 0px 7px 5px #000;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
     padding: 10px;
 }
 
@@ -33,14 +32,16 @@ ul {
     text-align: left;
 }
 
-.right {
-    -webkit-animation: bounce-in-right 1.1s both;
+@media (prefers-reduced-motion: no-preference) {
+        .bounce-right {
+                -webkit-animation: bounce-in-right 1.1s both;
 	        animation: bounce-in-right 1.1s both;
-}
+        }
 
-.left {
-    -webkit-animation: bounce-in-left 1.1s both;
-	        animation: bounce-in-left 1.1s both;
+        .bounce-left {
+                -webkit-animation: bounce-in-left 1.1s both;
+	        animation: bounce-in-left 1.1s both;  
+        }
 }
 
 /* ----------------------------------------------
