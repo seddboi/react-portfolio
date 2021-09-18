@@ -12,7 +12,8 @@ body {
     margin-left: 80px;
     margin-bottom: 600px;;
     box-shadow: 0px 25px 30px #000;
-    border: solid 10px #ffff;
+    border: solid 11px #ffff;
+    border-radius: 10px;
     padding: 40px;
     box-shadow: 1px 1px 0 #666, 2px 2px #666, 3px 3px #666, 4px 4px #666, 5px 5px #666, 6px 6px #666, 7px 7px #666, 8px 8px #666, 9px 9px #666, 10px 10px #666;
     /* box-shadow: 1px 0 0 #888, 2px 0 0 #888, 3px 0 0 #888, 4px 0 0 #888, 5px 0 0 #888 ; */

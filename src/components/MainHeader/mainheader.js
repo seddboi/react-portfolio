@@ -4,8 +4,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 function MainHeader() {
     return (
-        <div class='diagonal'>
-            <div>
+        <div>
+            <div class='diagonal'>
                 <ScrollAnimation animateIn='name-animation'>
                     <h1><strong class='name'>
                         Gian Zamora
