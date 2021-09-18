@@ -7,8 +7,9 @@
     background: -webkit-linear-gradient(#F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(#F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
+    border: solid 10px #ffff;
     border-radius: 10px;
-    box-shadow: 0px 0px 7px 5px #000;
+    box-shadow: 1px 1px 0 #666, 2px 2px #666, 3px 3px #666, 4px 4px #666, 5px 5px #666, 6px 6px #666, 7px 7px #666, 8px 8px #666, 9px 9px #666, 10px 10px #666;
 }
 
 @media (prefers-reduced-motion: no-preference) {
