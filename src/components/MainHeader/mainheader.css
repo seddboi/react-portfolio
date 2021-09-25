@@ -15,7 +15,7 @@ body {
     border: solid 11px #ffff;
     border-radius: 10px;
     padding: 40px;
-    box-shadow: 1px 1px 0 #999, 2px 2px #888, 3px 3px #777, 4px 4px #666, 5px 5px #555, 6px 6px #444, 7px 7px #333, 8px 8px #222, 9px 9px #111;
+    box-shadow: 1px 1px 0 #999, 2px 2px #888, 3px 3px #777, 4px 4px #666, 5px 5px #555, 6px 6px #444, 7px 7px #333, 8px 8px #222;
     /* box-shadow: 1px 0 0 #888, 2px 0 0 #888, 3px 0 0 #888, 4px 0 0 #888, 5px 0 0 #888 ; */
 }
 
