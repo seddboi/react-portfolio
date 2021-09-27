@@ -1,0 +1,53 @@
+/* #centered-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+h1 {
+    color: #ffff;
+}
+
+#contact-title {
+    text-align: center;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 1px 1px 0 #777, 2px 2px 0 #777, 3px 3px 0 #777, 4px 4px 0 #777, 5px 5px 0 #777, 6px 6px 0 #777, 7px 7px 0 #777, 8px 8px 0 #777, 9px 9px 0 #777, 0 30px 30px #000;
+}
+
+#selfie {
+    max-width: 250px;
+    border: solid 4px #ffff;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+
+#contact-section {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    border: solid 10px #ffff;
+    border-radius: 10px;
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+    box-shadow: 1px 1px #999, 2px 2px #999, 3px 3px #888, 4px 4px #888, 5px 5px #777, 6px 6px #777, 7px 7px #666, 8px 8px #666, 9px 9px #555, 10px 10px #555, 11px 11px #444, 12px 12px #444;
+    /* transform: perspective(75em) rotateX(18deg); */
+
+}
+
+#body-text {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 375px) {
+   #contact-title{
+       font-size: 50px;
+   } 
+}

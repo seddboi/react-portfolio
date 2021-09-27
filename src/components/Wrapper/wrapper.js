@@ -4,6 +4,7 @@ import MainHeader from '../MainHeader/mainheader';
 import Bio from '../Bio/bio';
 import Skills from '../Skills/skills';
 import Projects from '../Projects/projects';
+import Contact from '../Contact/contact-me';
 
 function Wrapper() {
     return (
@@ -12,6 +13,7 @@ function Wrapper() {
             <Bio />
             <Skills />
             <Projects />
+            <Contact />
         </div>
     )
 }
