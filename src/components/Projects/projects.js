@@ -30,12 +30,12 @@ function Projects() {
                     </div>                
                 </div>
 
-                <div class='card p4' id='project-card'>
+                {/* <div class='card p4' id='project-card'>
                 <img id='gif' src={saveshot} />
                     <div id='filter'>
                         <p id='card-text'>Save-A-Shot</p>
                     </div>                
-                </div>
+                </div> */}
 
                 {/* <div class='card p5' id='project-card'>
                 <img id='gif' src={saveshot} />
