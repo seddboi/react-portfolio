@@ -9,26 +9,32 @@ function Projects() {
             <h2 id='projects-title'><strong>Projects</strong></h2>
 
             <div class='callout large row ' id='projects-container'>
-                <div class='card p1' id='project-card'>
-                    <img id='gif' src={saveshot} />
-                    <div id='filter'>
-                        <p id='card-text'>Save-A-Shot</p>
+                <a href='https://seddboi.github.io/Save-A-Shot/'>
+                    <div class='card p1' id='project-card'>
+                        <img id='gif' src={saveshot} />
+                        <div id='filter'>
+                            <p id='card-text'>Save-A-Shot</p>
+                        </div>
                     </div>
-                </div>
+                </a>
+                    
+                <a>
+                    <div class='card p2' id='project-card'>
+                        <img id='gif' src={saveshot} />
+                        <div id='filter'>
+                            <p id='card-text'>Save-A-Shot</p>
+                        </div>                
+                    </div>
+                </a>
 
-                <div class='card p2' id='project-card'>
-                    <img id='gif' src={saveshot} />
-                    <div id='filter'>
-                        <p id='card-text'>Save-A-Shot</p>
-                    </div>                
-                </div>
-
-                <div class='card p3' id='project-card'>
-                <img id='gif' src={saveshot} />
-                    <div id='filter'>
-                        <p id='card-text'>Save-A-Shot</p>
-                    </div>                
-                </div>
+                <a>
+                    <div class='card p3' id='project-card'>
+                        <img id='gif' src={saveshot} />
+                        <div id='filter'>
+                            <p id='card-text'>Save-A-Shot</p>
+                        </div>                
+                    </div>
+                </a>
 
                 {/* <div class='card p4' id='project-card'>
                 <img id='gif' src={saveshot} />
