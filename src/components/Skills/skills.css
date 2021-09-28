@@ -1,4 +1,13 @@
-#card {
+#skills-wrapper {
+        display:flex;
+        justify-content: space-evenly;
+        margin-bottom: 350px;
+}
+
+#card { 
+        display: inline-block;
+        width: 300px;
+        height: auto;
         background: transparent;
     border: unset;
     background: #FF4E50;  /* fallback for old browsers */
@@ -7,8 +16,8 @@
     border: 8px solid #ffff;
     border-radius: 8px;
     box-shadow: 1px 1px 0 #999, 2px 2px #888, 3px 3px #777, 4px 4px #666, 5px 5px #555, 6px 6px #444, 7px 7px #333, 8px 8px #222;
-    margin-bottom: 500px;
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -31,6 +40,15 @@ ul {
 #list {
     display:inline-block;
     text-align: left;
+}
+
+@media only screen and (max-width: 718px){
+        #skills-wrapper{
+                display: flex;
+                align-items: center;
+                align-content: space-between;
+                flex-direction: column;
+        }
 }
 
 @media (prefers-reduced-motion: no-preference) {

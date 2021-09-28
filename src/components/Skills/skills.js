@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 function Skills() {
     return (
-        <div class='grid-x align-spaced'>
+        <div id='skills-wrapper'>
             <ScrollAnimation animateIn='bounce-left' >
                 <div class='cell small-3 text-center left' id='card'>
                     <h3><strong>Client Side Strengths</strong></h3>
