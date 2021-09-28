@@ -6,7 +6,8 @@ body {
 .diagonal {
     text-align: center;
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
-    animation: color-change-2x 2s linear infinite alternate both;    transform: skewY(11deg);
+    animation: color-change-2x 2s linear infinite alternate both;    
+    transform: skewY(11deg);
     margin-top: 300px;
     margin-right: 80px;
     margin-left: 80px;
@@ -23,7 +24,7 @@ body {
     padding: 30px;
     margin: 0 auto;
     color: #ffff;
-    text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px 0 #cccccc, 15px 15px 15px #000; 
+    text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 0 15px 15px #000; 
      /* text-shadow: /* 0px 0px 0px #777,
                 0px 1px 0px #666,
                 0px 2px 0px #555,
@@ -51,9 +52,9 @@ body {
   }
 }
 
-@media (min-width: 375 ) {
+@media only screen and (max-width: 375px ) {
   .name{
-    font-size: 50px;
+    font-size: 70px;
   }
 }
 
@@ -82,7 +83,7 @@ body {
               transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
               transform-origin: 50% 50%;
-      text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px 0 #cccccc, 5px 5px 0 #cccccc, 6px 6px 0 #cccccc, 7px 7px 0 #cccccc, 8px 8px 0 #cccccc, 9px 9px 0 #cccccc, 50px 50px 30px #000;
+      text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px 0 #cccccc, 5px 5px 0 #cccccc, 6px 6px 0 #cccccc, 7px 7px 0 #cccccc, 8px 8px 0 #cccccc, 9px 9px 0 #cccccc, 0 50px 30px #000;
     }
   }
   @keyframes text-pop-up-top {
@@ -98,7 +99,7 @@ body {
               transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
               transform-origin: 50% 50%;
-              text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px 0 #cccccc, 5px 5px 0 #cccccc, 6px 6px 0 #cccccc, 7px 7px 0 #cccccc, 8px 8px 0 #cccccc, 9px 9px 0 #cccccc, 50px 50px 30px #000;
+              text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px 0 #cccccc, 5px 5px 0 #cccccc, 6px 6px 0 #cccccc, 7px 7px 0 #cccccc, 8px 8px 0 #cccccc, 9px 9px 0 #cccccc, 0 50px 30px #000;
     }
   }
   
