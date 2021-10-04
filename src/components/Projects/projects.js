@@ -18,7 +18,7 @@ function Projects() {
                     </div>
                 </a>
                     
-                <a>
+                <a href='https://seddboi.github.io/Save-A-Shot/'>
                     <div class='card p2' id='project-card'>
                         <img id='gif' src={saveshot} />
                         <div id='filter'>
@@ -27,7 +27,7 @@ function Projects() {
                     </div>
                 </a>
 
-                <a>
+                <a href='https://seddboi.github.io/Save-A-Shot/'>
                     <div class='card p3' id='project-card'>
                         <img id='gif' src={saveshot} />
                         <div id='filter'>
