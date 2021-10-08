@@ -7,7 +7,7 @@ function Skills() {
         <div id='skills-wrapper'>
             <ScrollAnimation animateIn='bounce-left' >
                 <div class='cell small-3 text-center left' id='card'>
-                    <h3><strong>Client Side Strengths</strong></h3>
+                    <h3 id='skill-titles'><strong>Client Side Strengths</strong></h3>
                     <div id='centered-list-1'>
                         <ul id='list'>
                             <li><strong>React.js</strong></li>
@@ -21,7 +21,7 @@ function Skills() {
 
             <ScrollAnimation animateIn='bounce-right' >
                 <div class='cell small-3 text-center right' id='card' >
-                    <h3><strong>Server Side Strengths</strong></h3>
+                    <h3 id='skill-titles'><strong>Server Side Strengths</strong></h3>
                     <div id='centered-list-2'>
                         <ul id='list'>
                             <li><strong>Node</strong></li>

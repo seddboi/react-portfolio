@@ -11,10 +11,11 @@ function Contact() {
                 <div class='callout row' id='contact-section'>
                     <img id='selfie' src={selfie} />
                     <div>
-                        <h4 id='body-text'>Email: zmr.gian@gmail.com</h4>
-                        <h4 id='body-text'>Phone: 951-545-6589</h4>
+                        <h4 >Email: zmr.gian@gmail.com</h4>
+                        <h4 >Phone: 951-545-6589</h4>
                         <h4 id='body-text'><a id='links' href='https://www.linkedin.com/in/gian-zamora/'>Click here for my LinkedIn!</a></h4>
                         <h4 id='body-text'><a id='links' href='https://github.com/seddboi'>Click here for my Github!</a></h4>
+                        <h4 id='body-text'><a id='links' href='https://docs.google.com/document/d/13GkBST-zhbndjGA2Q9p30eVImBoOIslvF4NYbpHhWOg/edit?usp=sharing' download>Download My Resume!</a></h4>
                     </div>
                 </div>
             </div>
