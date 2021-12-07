@@ -3,6 +3,7 @@ import './projects.css';
 
 import saveshot from './gif/Save-A-Shot.gif';
 import thoughtmachine from './gif/Thought-Machine.gif';
+import passwordgenerator from './gif/Password Generator.gif';
 
 function Projects() {
     return (
@@ -28,11 +29,11 @@ function Projects() {
                     </div>
                 </a>
 
-                <a href='https://seddboi.github.io/Save-A-Shot/'>
+                <a href='https://seddboi.github.io/Random-Password-Creator/'>
                     <div class='card p3' id='project-card'>
-                        <img id='gif' src={saveshot} />
+                        <img id='gif' src={passwordgenerator} />
                         <div id='filter'>
-                            <p id='card-text'>Save-A-Shot</p>
+                            <p id='card-text'>Password Generator</p>
                         </div>                
                     </div>
                 </a>
