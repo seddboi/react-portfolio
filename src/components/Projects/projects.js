@@ -1,7 +1,8 @@
 import React from 'react';
 import './projects.css';
 
-import saveshot from './gif/Save-A-Shot.gif'
+import saveshot from './gif/Save-A-Shot.gif';
+import thoughtmachine from './gif/Thought-Machine.gif';
 
 function Projects() {
     return (
@@ -18,11 +19,11 @@ function Projects() {
                     </div>
                 </a>
                     
-                <a href='https://seddboi.github.io/Save-A-Shot/'>
+                <a href='https://seddboi.github.io/Thought-Machine/'>
                     <div class='card p2' id='project-card'>
-                        <img id='gif' src={saveshot} />
+                        <img id='gif' src={thoughtmachine} />
                         <div id='filter'>
-                            <p id='card-text'>Save-A-Shot</p>
+                            <p id='card-text'>Thought Machine</p>
                         </div>                
                     </div>
                 </a>
