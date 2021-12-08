@@ -27,7 +27,7 @@
 }
 
 #project-card {
-    width: 300px;
+    width: 400px;
     height: auto;
     margin: 15px;
     background-color: #666;
@@ -46,10 +46,14 @@
     background: #000;
 }
 
+#main-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
 #card-text {
     color: #ffff;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;

@@ -9,7 +9,7 @@ function Contact() {
             <div id='centered-title'>
                 <h1 id='contact-title'>Contact Me</h1>
                 <div class='callout row' id='contact-section'>
-                    <img id='selfie' src={selfie} />
+                    <img id='selfie' alt='picture of the sexy beast that is Gian Zamora' src={selfie} />
                     <div>
                         <h4 >Email: zmr.gian@gmail.com</h4>
                         <h4 >Phone: 951-545-6589</h4>
