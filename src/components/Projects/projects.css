@@ -28,7 +28,7 @@
 
 #project-card {
     width: 400px;
-    height: auto;
+    height: 350px;
     margin: 15px;
     background-color: #666;
     position: relative;
@@ -54,10 +54,11 @@
 #card-text {
     color: #ffff;
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 20px;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%;  */
+    /* transform: translate(-50%, -50%);  */
 }
 
 #filter {
@@ -73,12 +74,25 @@
     transform: scale(1.2)
 }
 
+#gif {
+    height: 100%;
+}
+
 @media only screen and (max-width: 375px) {
+    #project-card {
+        width: 250px;
+    }
+    
     #projects-title{
         font-size: 50px;
     } 
+
+    #main-title {
+        font-size: 20px;
+    }
+
+    #card-text {
+        font-size: 14px;
+    }
  }
 
-/* #gif {
-    
-} */
