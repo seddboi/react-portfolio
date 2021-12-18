@@ -105,6 +105,14 @@
     }
 
     #card-text {
+        font-size: 20px;
+    }
+
+    #tech-title {
+        font-size: 15px;
+    }
+
+    #tech-text {
         font-size: 14px;
     }
  }
