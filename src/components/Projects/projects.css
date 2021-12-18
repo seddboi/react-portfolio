@@ -51,6 +51,11 @@
     font-size: 30px;
 }
 
+#tech-title {
+    font-weight: bold;
+
+}
+
 #card-text {
     color: #ffff;
     font-size: 20px;
@@ -59,6 +64,14 @@
     /* top: 50%; */
     /* left: 50%;  */
     /* transform: translate(-50%, -50%);  */
+    border-bottom: 1px solid white;
+
+}
+
+#tech-text {
+    color: #ffff;
+    font-size: 20px;
+
 }
 
 #filter {

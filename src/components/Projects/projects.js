@@ -16,6 +16,7 @@ function Projects() {
                             <img id='gif' alt='gif image of Save-A-Shot' src={saveshot} />
                             <div id='filter'>
                                 <p id='card-text'><span id='main-title'>Save-A-Shot</span><br/> Vaccination Tracker and Vaccination Informational, pending the early stages of the COVID 19 Outbreak</p>
+                                <p id='tech-text'><span id="tech-title">Technologies Used:</span><br/>VaccinateCA API<br/>OpenStreetMap API<br/>Foundation by Zurb Framework<br/> </p>
                             </div>
                         </div>
                     </a>
@@ -26,7 +27,8 @@ function Projects() {
                         <div class='card p2' id='project-card'>
                             <img id='gif' alt='gif image of Thought Machine' src={thoughtmachine} />
                             <div id='filter'>
-                            <p id='card-text'><span id='main-title'>Thought Machine</span><br/> Simple Passing Thoughts application for all of your thoughts not meant to be publicly shared!</p>
+                                <p id='card-text'><span id='main-title'>Thought Machine</span><br/> Simple Passing Thoughts application for all of your thoughts not meant to be publicly shared!</p>
+                                <p id='tech-text'><span id="tech-title">Technologies Used:</span><br/> React<br/>Javascript( Moment.js, React Hooks )<br/>HTML & CSS</p>
                             </div>                
                         </div>
                     </a>
@@ -37,7 +39,8 @@ function Projects() {
                         <div class='card p3' id='project-card'>
                             <img id='gif' alt='gif image of Password Generator' src={passwordgenerator} />
                             <div id='filter'>
-                            <p id='card-text'><span id='main-title'>Password Generator</span><br/> Upper Case, Lower Case, Numbers, and Special Characters... this generator has it all!</p>
+                                <p id='card-text'><span id='main-title'>Password Generator</span><br/> Upper Case, Lower Case, Numbers, and Special Characters... this generator has it all!</p>
+                                <p id='tech-text'><span id="tech-title">Technologies Used:</span><br/> Javascript<br/> HTML & CSS</p>
                             </div>                
                         </div>
                     </a>
