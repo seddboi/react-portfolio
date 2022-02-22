@@ -4,6 +4,7 @@ import './projects.css';
 import saveshot from './gif/Save-A-Shot.gif';
 import thoughtmachine from './gif/Thought-Machine.gif';
 import passwordgenerator from './gif/Password Generator.gif';
+import weathered from './gif/Weathered.gif';
 
 function Projects() {
     return (
@@ -46,12 +47,17 @@ function Projects() {
                     </a>
                 </div>
                 
-                {/* <div class='card p4' id='project-card'>
-                <img id='gif' src={saveshot} />
-                    <div id='filter'>
-                        <p id='card-text'>Save-A-Shot</p>
-                    </div>                
-                </div> */}
+                <div>
+                    <a href='https://weathrd.herokuapp.com/'>
+                        <div class='card p3' id='project-card'>
+                            <img id='gif' alt='gif image of Weathered' src={weathered} />
+                            <div id='filter'>
+                                <p id='card-text'><span id='main-title'>Weathered</span><br/> The one stop weather application, for any of your mobile or desktop needs!</p>
+                                <p id='tech-text'><span id="tech-title">Technologies Used:</span><br/> React JS<br/> Animate.css <br/>FreeWeatherAPI</p>
+                            </div>                
+                        </div>
+                    </a>
+                </div>
 
                 {/* <div class='card p5' id='project-card'>
                 <img id='gif' src={saveshot} />
