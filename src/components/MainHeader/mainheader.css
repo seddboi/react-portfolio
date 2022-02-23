@@ -8,7 +8,7 @@ body {
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
     animation: color-change-2x 2s linear infinite alternate both;    
     transform: skewY(11deg);
-    margin-top: 300px;
+    margin-top: 200px;
     margin-right: 80px;
     margin-left: 80px;
     margin-bottom: 600px;;
@@ -16,7 +16,7 @@ body {
     border: solid 11px #ffff;
     border-radius: 10px;
     padding: 40px;
-    box-shadow: 1px 1px 0 #999, 2px 2px #888, 3px 3px #777, 4px 4px #666, 5px 5px #555, 6px 6px #444, 7px 7px #333, 8px 8px #222;
+    box-shadow: 1px 1px 0 #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 12px #333;
     /* box-shadow: 1px 0 0 #888, 2px 0 0 #888, 3px 0 0 #888, 4px 0 0 #888, 5px 0 0 #888 ; */
 }
 
@@ -24,6 +24,7 @@ body {
     padding: 30px;
     margin: 0 auto;
     color: #ffff;
+    font-family: 'Titillium Web', monospace,  serif;
     text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 0 15px 15px #000; 
      /* text-shadow: /* 0px 0px 0px #777,
                 0px 1px 0px #666,
@@ -39,6 +40,7 @@ body {
 
 .name {
     color: #ffff;
+    font-family: "Titillium Web", monospace ,serif;
     font-size: 90px;
     padding-top: 50px;
     margin: 0 auto;

@@ -11,6 +11,7 @@ h1 {
 #contact-title {
     text-align: center;
     color: #ffff;
+    font-family: 'Titillium Web', monospace,  serif;
     font-weight: bold;
     font-size: 80px;
     text-shadow: 1px 1px 0 #777, 2px 2px 0 #777, 3px 3px 0 #777, 4px 4px 0 #777, 5px 5px 0 #777, 6px 6px 0 #777, 7px 7px 0 #777, 8px 8px 0 #777, 9px 9px 0 #777, 0 30px 30px #000;
@@ -43,6 +44,7 @@ h1 {
 }
 
 #body-text {
+    font-family: 'Titillium Web', monospace,  serif;
     font-weight: bold;
 }
 
