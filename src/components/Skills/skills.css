@@ -6,16 +6,16 @@
 
 #card { 
         display: inline-block;
-        width: 300px;
-        height: auto;
+        width: 320px;
+        height: 250px;
         background: transparent;
     border: unset;
-    background: #FF4E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(#F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8B9D64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#CAE394, #8B9D64);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#CAE394, #8B9D64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: 8px solid #ffff;
     border-radius: 8px;
-    box-shadow: 1px 1px 0 #999, 2px 2px #888, 3px 3px #777, 4px 4px #666, 5px 5px #555, 6px 6px #444, 7px 7px #333, 8px 8px #222;
+    box-shadow: 1px 1px #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 13px #333;
     padding: 10px;
     margin-bottom: 50px;
 }
@@ -23,24 +23,19 @@
 #skill-titles {
     color: #ffff;
     font-family: 'Titillium Web', monospace,  serif;
-    text-shadow: 0 1px 0 #888, 0 2px 0 #888, 0 3px 0 #888, 0 4px 0 #888, 0 5px 0 #888, 0 20px 15px #000;
+    font-size: 25px;
+    /* text-shadow: 0 1px 0 #888, 0 2px 0 #888, 0 3px 0 #888, 0 4px 0 #888, 0 5px 0 #888, 0 20px 15px #000; */
 }
 
 ul {
     color: #ffff;
-}
-
-#centered-list-1 {
-    text-align: center;
-}
-
-#centered-list-2 {
-    text-align: center;
+    list-style: none;
+        font-size: 20px;
 }
 
 #list {
-    display:inline-block;
-    text-align: left;
+    display: inline-block;
+    text-align: center;
 }
 
 @media only screen and (max-width: 718px){

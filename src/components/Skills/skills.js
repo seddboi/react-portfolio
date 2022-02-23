@@ -13,7 +13,8 @@ function Skills() {
                             <li><strong>React.js</strong></li>
                             <li><strong>HTML5</strong></li>
                             <li><strong>CSS / Bootstrap / Foundation</strong></li>
-                            <li><strong>Version Control / Git / Command Line</strong></li>
+                            <li><strong>Javascript</strong></li>
+                            <li><strong>Heroku/Netlify</strong></li>
                         </ul>
                     </div>
                 </div>
@@ -28,6 +29,7 @@ function Skills() {
                             <li><strong>Express</strong></li>
                             <li><strong>MySQL</strong></li>
                             <li><strong>Sequelize</strong></li>
+                            <li><strong>MongoDB</strong></li>
                         </ul>
                     </div>
                     
