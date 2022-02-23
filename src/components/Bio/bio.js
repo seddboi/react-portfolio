@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 function Bio() {
     return (
-        <ScrollAnimation animateIn='bio-drop'>
+        <ScrollAnimation animateIn='fade-in'>
             <div class='grid-x align-center' id='top-layer'>
                 <div class='callout large' id='about-me'>
                     <p><strong>Hi, </strong></p>
