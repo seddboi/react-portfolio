@@ -8,29 +8,29 @@
 #projects-title {
     color: #ffff;
     font-family: 'Titillium Web', monospace,  serif;
-    text-shadow: 1px 1px 0 #777, 2px 2px 0 #777, 3px 3px 0 #777, 4px 4px 0 #777, 5px 5px 0 #777, 6px 6px 0 #777, 7px 7px 0 #777, 8px 8px 0 #777, 9px 9px 0 #777, 0 30px 30px #000;
+    text-shadow: 1px 1px 0 #56713B, 2px 2px 0 #56713B, 3px 3px 0 #56713B, 4px 4px 0 #56713B, 5px 5px 0 #56713B, 6px 6px 0 #56713B, 7px 7px 0 #56713B, 25px 30px 13px #333;
     text-align: center;
     font-size: 80px;
 }
 
 #projects-container {
     width: 77%;
-    background: #FF4E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(#F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8B9D64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#CAE394, #8B9D64);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#CAE394, #8B9D64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
     border: solid 11px #ffff;
     border-radius: 15px;
-    box-shadow: 1px 1px 0 #999, 2px 2px #888, 3px 3px #777, 4px 4px #666, 5px 5px #555, 6px 6px #444, 7px 7px #333, 8px 8px #222;
+    box-shadow: 1px 1px 0 #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 13px #333;
     margin-bottom: 300px;
     display: flex;
     justify-content: space-around;
 }
 
 #project-card {
-    width: 400px;
+    max-width: 400px;
     height: 350px;
-    margin: 15px;
+    margin: 20px 5px 20px 5px;
     background-color: #666;
     position: relative;
     text-align: center;
@@ -66,6 +66,7 @@
     /* left: 50%;  */
     /* transform: translate(-50%, -50%);  */
     border-bottom: 1px solid white;
+    line-height: 1.6;
 
 }
 
@@ -92,11 +93,11 @@
     height: 100%;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 390px) {
     #project-card {
-        width: 250px;
+        width: 350px;
     }
-    
+
     #projects-title{
         font-size: 50px;
     } 
@@ -107,14 +108,15 @@
 
     #card-text {
         font-size: 20px;
+        line-height: 1.6;
     }
 
     #tech-title {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #tech-text {
-        font-size: 14px;
+        font-size: 18px;
     }
  }
 
