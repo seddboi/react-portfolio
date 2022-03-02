@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact-me.css';
 
-import selfie from './selfie/IMG_1892_2.jpg'
+import selfie from './selfie/portfolio.jpeg'
 import github from './selfie/GitHub-Mark-64px.png'
 import linkedin from './selfie/LI-In-Bug.png'
 import resume from './selfie/wr-resumes-logo.png'
