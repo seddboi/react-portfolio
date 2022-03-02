@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c3ebde80.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.768b20bb.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.768b20bb.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.151227bb.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.a9df121c.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a9df121c.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/css/2.9a72e83e.chunk.css": "/react-portfolio/static/css/2.9a72e83e.chunk.css",
@@ -10,19 +10,20 @@
     "static/js/2.1ea93b8c.chunk.js.map": "/react-portfolio/static/js/2.1ea93b8c.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.9a72e83e.chunk.css.map": "/react-portfolio/static/css/2.9a72e83e.chunk.css.map",
-    "static/css/main.c3ebde80.chunk.css.map": "/react-portfolio/static/css/main.c3ebde80.chunk.css.map",
+    "static/css/main.151227bb.chunk.css.map": "/react-portfolio/static/css/main.151227bb.chunk.css.map",
     "static/js/2.1ea93b8c.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.1ea93b8c.chunk.js.LICENSE.txt",
-    "static/media/IMG_1892_2.2cafc1af.jpg": "/react-portfolio/static/media/IMG_1892_2.2cafc1af.jpg",
     "static/media/Password Generator.43b0409a.gif": "/react-portfolio/static/media/Password Generator.43b0409a.gif",
     "static/media/Save-A-Shot.01a3c36e.gif": "/react-portfolio/static/media/Save-A-Shot.01a3c36e.gif",
     "static/media/Thought-Machine.2903879f.gif": "/react-portfolio/static/media/Thought-Machine.2903879f.gif",
-    "static/media/index.css": "/react-portfolio/static/media/sunset.3ea9c84e.jpg"
+    "static/media/Weathered.a3938158.gif": "/react-portfolio/static/media/Weathered.a3938158.gif",
+    "static/media/portfolio.abf1bcd7.jpeg": "/react-portfolio/static/media/portfolio.abf1bcd7.jpeg",
+    "static/media/wr-resumes-logo.4619f1c0.png": "/react-portfolio/static/media/wr-resumes-logo.4619f1c0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
     "static/css/2.9a72e83e.chunk.css",
     "static/js/2.1ea93b8c.chunk.js",
-    "static/css/main.c3ebde80.chunk.css",
-    "static/js/main.768b20bb.chunk.js"
+    "static/css/main.151227bb.chunk.css",
+    "static/js/main.a9df121c.chunk.js"
   ]
 }
