@@ -8,13 +8,17 @@ h1 {
     color: #ffff;
 }
 
+.contact-div {
+    margin-bottom: 100px;
+}
+
 #contact-title {
     text-align: center;
     color: #ffff;
     font-family: 'Titillium Web', monospace,  serif;
     font-weight: bold;
     font-size: 80px;
-    text-shadow: 1px 1px 0 #777, 2px 2px 0 #777, 3px 3px 0 #777, 4px 4px 0 #777, 5px 5px 0 #777, 6px 6px 0 #777, 7px 7px 0 #777, 8px 8px 0 #777, 9px 9px 0 #777, 0 30px 30px #000;
+    text-shadow: 1px 1px 0 #56713B, 2px 2px 0 #56713B, 3px 3px 0 #56713B, 4px 4px 0 #56713B, 5px 5px 0 #56713B, 6px 6px 0 #56713B, 7px 7px 0 #56713B, 25px 30px 13px #333;
 }
 
 #selfie {
@@ -27,25 +31,57 @@ h1 {
 
 #contact-section {
     color: #ffff;
+    max-width: 70%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 20px;
     border: solid 10px #ffff;
     border-radius: 10px;
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
     animation: color-change-2x 2s linear infinite alternate both;
-    box-shadow: 1px 1px #999, 2px 2px #999, 3px 3px #888, 4px 4px #888, 5px 5px #777, 6px 6px #777, 7px 7px #666, 8px 8px #666, 9px 9px #555, 10px 10px #555, 11px 11px #444, 12px 12px #444;
+    box-shadow: 1px 1px 0 #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 13px #333;
     /* transform: perspective(75em) rotateX(18deg); */
 
 }
 
-#body-text {
-    font-family: 'Titillium Web', monospace,  serif;
-    font-weight: bold;
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+}
+
+#myInput {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.clipboard-button {
+    background-color: #EAE6C7;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.row-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.links {
+    height: 50px;
+    width: auto;
+    transition: .1s all ease-in;
+}
+
+.links:hover {
+    transform: scale(1.1)
 }
 
 #links {
@@ -56,13 +92,14 @@ h1 {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: bottom;
   background-repeat: repeat-x;
-  background-size: 20px;
+  background-size: 50px;
   border-bottom: 0;
   padding-bottom: .3em;
   text-decoration: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 390px) {
+    
    #contact-title{
        font-size: 50px;
    } 
