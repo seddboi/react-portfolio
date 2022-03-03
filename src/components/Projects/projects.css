@@ -16,19 +16,24 @@
 #projects-container {
     width: 77%;
     background: #8B9D64;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(#CAE394, #8B9D64);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#CAE394, #8B9D64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: -webkit-linear-gradient(#CAE394, #8B9D64);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(#CAE394, #8B9D64); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* Photo by George Pagan III on Unsplash */
+    background-image: url('../../custom-pics/mexico2.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     border: solid 11px #ffff;
     border-radius: 15px;
     box-shadow: 1px 1px 0 #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 13px #333;
-    margin-bottom: 300px;
+    margin-bottom: 700px;
     display: flex;
     justify-content: space-around;
 }
 
 #project-card {
-    max-width: 400px;
+    max-width: 380px;
     height: 350px;
     margin: 20px 5px 20px 5px;
     background-color: #666;
@@ -95,7 +100,7 @@
 
 @media only screen and (max-width: 390px) {
     #project-card {
-        width: 350px;
+        width: 320px;
     }
 
     #projects-title{

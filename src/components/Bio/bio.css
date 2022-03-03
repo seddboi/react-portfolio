@@ -3,9 +3,10 @@
     width: 76%; 
     color: #ffff;
     font-size: 22px;
-    /* background: #FF4E50;  /* fallback for old browsers */
+    background: #CAE394;  /* fallback for old browsers
     /* background: -webkit-linear-gradient(#CAE394, #8B9D64);  /* Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(#CAE394, #8B9D64); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    /* Photo by Marv Watson on Unsplash */
     background-image: url('../../custom-pics/mexico1.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
