@@ -15,7 +15,6 @@
 
 #projects-container {
     width: 77%;
-    background: #8B9D64;  /* fallback for old browsers */
     /* Photo by George Pagan III on Unsplash */
     background-image: url('../../custom-pics/mexico2.jpg');
     background-attachment: fixed;
