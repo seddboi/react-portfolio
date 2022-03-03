@@ -24,6 +24,13 @@
         }
 }
 
+@media only screen and (max-width: 390px) {
+  #about-me {
+    background: -webkit-linear-gradient(#CAE394, #8B9D64); 
+    background: linear-gradient(#CAE394, #8B9D64);
+  }
+}
+
  @-webkit-keyframes fade-in {
         0% {
           opacity: 0;

@@ -4,9 +4,7 @@ body {
 }
 
 .diagonal {
-    text-align: center;
-    /* -webkit-animation: color-change-2x 2s linear infinite alternate both;
-    animation: color-change-2x 2s linear infinite alternate both;     */
+    text-align: center;    
     /* Photo by Kalen Emsley on Unsplash */
     background-image: url('../../custom-pics/mountains1.jpg');
     background-attachment: fixed;
@@ -71,6 +69,9 @@ body {
 @media only screen and (max-width: 390px) {
   .diagonal {
     border-radius: 70px;
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+    background-image: none;
   }
 }
 

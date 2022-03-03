@@ -16,8 +16,6 @@
 #projects-container {
     width: 77%;
     background: #8B9D64;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(#CAE394, #8B9D64);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(#CAE394, #8B9D64); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* Photo by George Pagan III on Unsplash */
     background-image: url('../../custom-pics/mexico2.jpg');
     background-attachment: fixed;
@@ -99,6 +97,12 @@
 }
 
 @media only screen and (max-width: 390px) {
+    .projects-container {
+        background: -webkit-linear-gradient(#CAE394, #8B9D64); 
+        background: linear-gradient(#CAE394, #8B9D64); 
+        background-image: none;
+    }
+
     #project-card {
         width: 320px;
     }
