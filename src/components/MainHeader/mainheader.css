@@ -62,13 +62,13 @@ body {
 
 @media only screen and (max-width: 610px ) {
   .name{
-    font-size: 70px;
+    font-size:60px;
   }
 }
 
 @media only screen and (max-width: 390px) {
   .diagonal {
-    border-radius: 100px;
+    border-radius: 70px;
   }
 }
 

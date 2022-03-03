@@ -104,4 +104,8 @@ h1 {
    #contact-title{
        font-size: 50px;
    } 
+
+   .contact-div {
+       margin-bottom: 300px;
+   }
 }
