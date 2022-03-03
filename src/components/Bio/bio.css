@@ -3,10 +3,14 @@
     width: 76%; 
     color: #ffff;
     font-size: 22px;
-    background: #FF4E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(#CAE394, #8B9D64);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#CAE394, #8B9D64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #FF4E50;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(#CAE394, #8B9D64);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(#CAE394, #8B9D64); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background-image: url('../../custom-pics/mexico1.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     border: solid 10px #ffff;
     border-radius: 10px;
     box-shadow: 1px 1px 0 #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 13px #333;
