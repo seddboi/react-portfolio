@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 function Skills() {
     return (
         <div id='skills-wrapper'>
-            <ScrollAnimation animateIn='bounce-left' >
+            <ScrollAnimation animateIn='fade-in' >
                 <div class='cell small-3 text-center left' id='card'>
                     <h3 id='skill-titles'><strong>Client Side Strengths</strong></h3>
                     <div id='centered-list-1'>
@@ -20,7 +20,7 @@ function Skills() {
                 </div>
             </ScrollAnimation>
 
-            <ScrollAnimation animateIn='bounce-right' >
+            <ScrollAnimation animateIn='fade-in' >
                 <div class='cell small-3 text-center right' id='card' >
                     <h3 id='skill-titles'><strong>Server Side Strengths</strong></h3>
                     <div id='centered-list-2'>
