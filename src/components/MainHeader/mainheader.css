@@ -1,21 +1,26 @@
 body {
     background-color: transparent; 
-    min-width: 530px;
+    min-width: 500px;
 }
 
 .diagonal {
     text-align: center;
-    -webkit-animation: color-change-2x 2s linear infinite alternate both;
-    animation: color-change-2x 2s linear infinite alternate both;    
-    transform: skewY(11deg);
-    margin-top: 200px;
+    /* -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;     */
+    /* Photo by Kalen Emsley on Unsplash */
+    background-image: url('../../custom-pics/mountains1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 150px;
     margin-right: 80px;
     margin-left: 80px;
-    margin-bottom: 600px;;
+    margin-bottom: 700px;;
     box-shadow: 0px 25px 30px #000;
     border: solid 11px #ffff;
-    border-radius: 10px;
-    padding: 40px;
+    border-radius: 170px;
+    padding: 60px;
     box-shadow: 1px 1px 0 #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 12px #333;
     /* box-shadow: 1px 0 0 #888, 2px 0 0 #888, 3px 0 0 #888, 4px 0 0 #888, 5px 0 0 #888 ; */
 }
@@ -25,7 +30,8 @@ body {
     margin: 0 auto;
     color: #ffff;
     font-family: 'Titillium Web', monospace,  serif;
-    text-shadow: 1px 1px 0 #56713B, 2px 2px 0 #56713B, 0 15px 15px #000; 
+    font-size: 30px;
+    text-shadow: 1px 1px 0 #56713B, 2px 2px 0 #56713B,3px 3px 0 #56713B, 0 15px 15px #000; 
      /* text-shadow: /* 0px 0px 0px #777,
                 0px 1px 0px #666,
                 0px 2px 0px #555,
@@ -57,6 +63,12 @@ body {
 @media only screen and (max-width: 610px ) {
   .name{
     font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .diagonal {
+    border-radius: 100px;
   }
 }
 
