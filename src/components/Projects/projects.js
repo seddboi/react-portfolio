@@ -16,7 +16,7 @@ function Projects() {
 				<div>
 					<a href="https://weathrd.herokuapp.com/">
 						<div class="card p3" id="project-card">
-							<img id="gif" alt="gif image of Weathered" src={weathered} />
+							<img id="gif" alt="Weathered App Preview" src={weathered} />
 							<div id="filter">
 								<p id="card-text">
 									<span id="main-title">Weathered</span>
@@ -36,7 +36,7 @@ function Projects() {
 				<div>
 					<a href="https://seddboi.github.io/Thought-Machine/">
 						<div class="card p2" id="project-card">
-							<img id="gif" alt="gif image of Thought Machine" src={thoughtmachine} />
+							<img id="gif" alt="Thought Machine preview" src={thoughtmachine} />
 							<div id="filter">
 								<p id="card-text">
 									<span id="main-title">Thought Machine</span>
@@ -58,7 +58,7 @@ function Projects() {
 				<div>
 					<a href="https://seddboi.github.io/passwordinator/">
 						<div class="card p3" id="project-card">
-							<img id="gif" alt="gif image of Password Generator" src={passwordgenerator} />
+							<img id="gif" alt="Password Generator Preview" src={passwordgenerator} />
 							<div id="filter">
 								<p id="card-text">
 									<span id="main-title">Password Generator</span>
@@ -78,7 +78,7 @@ function Projects() {
 				<div>
 					<a href="https://seddboi.github.io/Save-A-Shot/">
 						<div class="card p1" id="project-card">
-							<img id="gif" alt="gif image of Save-A-Shot" src={saveshot} />
+							<img id="gif" alt="Save-A-Shot Preview" src={saveshot} />
 							<div id="filter">
 								<p id="card-text">
 									<span id="main-title">Save-A-Shot</span>
