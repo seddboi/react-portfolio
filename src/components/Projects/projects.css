@@ -31,8 +31,9 @@
 
 #project-card {
     max-width: 380px;
-    height: 350px;
-    margin: 20px 5px 20px 5px;
+    width: 320px;
+    height: 300px;
+    margin: 20px 5px 20px;
     background-color: #666;
     position: relative;
     text-align: center;
@@ -83,29 +84,34 @@
 
 #filter:hover {
     opacity: 0;
-    transform: scale(1.2)
+    transform: scale(3)
 }
 
 #gif {
     height: 100%;
 }
 
-@media only screen and (max-width: 390px) {
-    .projects-container {
+@media only screen and (max-width: 420px) {
+    #projects-container {
+        width: 90%;
         background: -webkit-linear-gradient(#CAE394, #8B9D64); 
         background: linear-gradient(#CAE394, #8B9D64); 
     }
 
     #project-card {
-        width: 320px;
+        width: 100%;
+    }
+
+    #project-card:hover{
+        transform: scale(1.25);
     }
 
     #projects-title{
-        font-size: 50px;
+        font-size: 70px;
     } 
 
     #main-title {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     #card-text {
