@@ -2,14 +2,29 @@ import React from 'react';
 import './popup.css';
 
 import {Container, Dialog, DialogContent, Button } from '@mui/material';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 export function Popup({isOpen, handleClose, information}) {
+
+	const theme = createTheme({
+		breakpoints: {
+			values: {
+				xxs: 0, // small phone
+				xs: 300, // phone
+				sm: 600, // tablets
+				md: 900, // small laptop
+				lg: 1200, // desktop
+				xl: 1536 // large screens
+			}
+		}
+	})
 	return (
-		<Dialog open={isOpen} onClose={handleClose} maxWidth='md' fullWidth sx={{}}>
-			<Container maxWidth='xl' disableGutters='true' sx={{display: 'flex', flexDirection: 'row',  }}>
-				<DialogContent sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
-					<Button variant='contained' sx={{margin:'30px 10px 20px', fontFamily: 'Titillium Web, monospace, serif'}}>Github Repo</Button>
-					<Button variant='contained' sx={{margin:'20px 10px 30px', fontFamily: 'Titillium Web, monospace, serif'}}>Live Site</Button>
+		<ThemeProvider theme={theme}>
+			<Dialog open={isOpen} onClose={handleClose} maxWidth='md' fullWidth sx={{}}>
+			<Container maxWidth='xl' disableGutters='true' sx={{display: 'flex', flexDirection: 'column-reverse'}}>
+				<DialogContent sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', width: '100%'}}>
+					<Button variant='contained' href={information.github} sx={{margin:'20px 10px 20px', fontFamily: 'Titillium Web, monospace, serif'}}>Github Repo</Button>
+					<Button variant='contained' href={information.link} sx={{margin:'20px 10px 20px', fontFamily: 'Titillium Web, monospace, serif'}}>Live Site</Button>
 				</DialogContent>
 				<DialogContent>
 					<h5 className='subtitles'>Description:</h5>
@@ -21,6 +36,7 @@ export function Popup({isOpen, handleClose, information}) {
 				</DialogContent>
 			</Container>
 		</Dialog>
+		</ThemeProvider>
 	)
 };
 
