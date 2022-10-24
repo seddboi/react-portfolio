@@ -37,7 +37,7 @@
     position: relative;
     text-align: center;
     border-radius: 10px;
-    transition: .3s all ease-in;
+    transition: .09s all ease-in;
 }
 
 #project-card:hover{
@@ -50,8 +50,9 @@
 }
 
 #main-title {
+    font-family: 'Titillium Web', monospace,  serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #tech-title {
@@ -61,15 +62,6 @@
 
 #card-text {
     color: #ffff;
-    font-size: 20px;
-    padding: 20px;
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 50%;  */
-    /* transform: translate(-50%, -50%);  */
-    border-bottom: 1px solid white;
-    line-height: 1.6;
-
 }
 
 #tech-text {
@@ -84,6 +76,9 @@
     width: 100%;
     background-color: rgba(0,0,0,0.3);
     transition: .2s all ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #filter:hover {
