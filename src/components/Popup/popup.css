@@ -1,3 +1,8 @@
 .subtitles {
 	font-family: 'Titillium Web', monospace,  serif;
 }
+
+.MuiDialog-paper {
+	color: white !important;
+	background-color: #AEB6BF !important;
+}

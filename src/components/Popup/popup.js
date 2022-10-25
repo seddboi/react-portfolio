@@ -16,6 +16,14 @@ export function Popup({isOpen, handleClose, information}) {
 				lg: 1200, // desktop
 				xl: 1536 // large screens
 			}
+		},
+		palette: {
+			primary: {
+				main: '#2E4053',
+				light: '#34495E',
+				dark: '#283747',
+				contrastText: '#ffffff'
+			}
 		}
 	})
 	return (
