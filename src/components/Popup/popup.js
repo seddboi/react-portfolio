@@ -30,9 +30,9 @@ export function Popup({isOpen, handleClose, information}) {
 		<ThemeProvider theme={theme}>
 			<Dialog open={isOpen} onClose={handleClose} maxWidth='md' fullWidth sx={{}}>
 			<Container maxWidth='xl' disableGutters='true' sx={{display: 'flex', flexDirection: 'column-reverse'}}>
-				<DialogContent sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', width: '100%'}}>
-					<Button variant='contained' href={information.github} sx={{margin:'20px 10px 20px', fontFamily: 'Titillium Web, monospace, serif'}}>Github Repo</Button>
-					<Button variant='contained' href={information.link} sx={{margin:'20px 10px 20px', fontFamily: 'Titillium Web, monospace, serif'}}>Live Site</Button>
+				<DialogContent sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: {xs: 'column', sm: 'row'}, width: '100%'}}>
+					<Button variant='contained' href={information.github} sx={{margin:'20px 10px 20px', fontFamily: 'Titillium Web, monospace, serif', fontSize: {xs:'30px', sm: '15px'}}}>Github Repo</Button>
+					<Button variant='contained' href={information.link} sx={{margin:'20px 10px 20px', fontFamily: 'Titillium Web, monospace, serif', fontSize:{xs:'30px', sm: '15px'}}}>Live Site</Button>
 				</DialogContent>
 				<DialogContent>
 					<h5 className='subtitles'>Description:</h5>
@@ -40,7 +40,7 @@ export function Popup({isOpen, handleClose, information}) {
 					<h5 className='subtitles'>Development Process:</h5>
 					<p>{information.built}</p>				
 					<h5 className='subtitles'>Main Technologies Used: </h5>
-					<ol>{information.tech.map((item, i) => <li key={i} sx={{ display: 'list-item' }}>{item}</li>)}</ol>
+					<ol>{information.tech.map((item, i) => <li key={i}>{item}</li>)}</ol>
 				</DialogContent>
 			</Container>
 		</Dialog>

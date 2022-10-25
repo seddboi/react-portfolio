@@ -45,7 +45,7 @@ function Projects() {
 		'saveashot': {
 			main: 'Vaccination Tracker and Vaccination Informational, pending the early stages of the COVID 19 Outbreak',
 			tech: ['VaccinateCA API', 'OpenStreetMap API', 'Foundation by Zurb'],
-			built: 'This project was a group project where I was assigned to develop the entire front end of the project. Every division, container, button, background, color, and design was all done by me. For a majority of the front end, I utilized components provided by Foundation by Zurb. This project\'s main goal was to serve as an informational in locating vaccinations for COVID 19 in California and providing informationals for every state on the vaccine and websites to schedule vaccines appointments.  ',
+			built: 'This was a group project where I was assigned to develop the entire front end of the application. Every division, container, button, background, color, and overall design was all done by me. For a majority of the front end, I utilized components provided by Foundation by Zurb. This project\'s main goal was to serve as an informational in locating vaccinations for COVID 19 in California and providing informationals for every state on the vaccine and websites to schedule vaccines appointments.  ',
 			github: 'https://github.com/seddboi/Save-A-Shot',
 			link: 'https://seddboi.github.io/Save-A-Shot/'
 		}

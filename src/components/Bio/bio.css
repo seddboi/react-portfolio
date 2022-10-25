@@ -14,7 +14,7 @@
     background-position: bottom;
     border: solid 10px #ffff;
     border-radius: 10px;
-    box-shadow: 1px 1px 0 #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 13px #333;
+    box-shadow: 1px 1px 0 #283747, 2px 2px #283747, 3px 3px #283747, 4px 4px #283747, 5px 5px #283747, 6px 6px #283747, 7px 7px #283747, 8px 8px #283747, 25px 30px 12px #555;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,10 +24,11 @@
         }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
   #about-me {
-    background: -webkit-linear-gradient(#CAE394, #8B9D64); 
-    background: linear-gradient(#CAE394, #8B9D64);
+    background: -webkit-linear-gradient(#34495E, #283747); 
+    background: linear-gradient(#34495E, #283747);
+    width: 90%;
   }
 }
 

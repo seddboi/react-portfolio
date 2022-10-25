@@ -11,25 +11,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-right: 80px;
     margin-left: 80px;
-    margin-bottom: 700px;;
+    margin-bottom: 500px;;
     box-shadow: 0px 25px 30px #000;
     border: solid 11px #ffff;
-    border-radius: 170px;
+    border-radius: 100px;
     padding: 60px;
-    box-shadow: 1px 1px 0 #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 12px #333;
+    box-shadow: 1px 1px 0 #283747, 2px 2px #283747, 3px 3px #283747, 4px 4px #283747, 5px 5px #283747, 6px 6px #283747, 7px 7px #283747, 8px 8px #283747, 25px 30px 12px #555;
     /* box-shadow: 1px 0 0 #888, 2px 0 0 #888, 3px 0 0 #888, 4px 0 0 #888, 5px 0 0 #888 ; */
 }
 
 .content {
-    padding: 30px;
+    padding: 15px;
     margin: 0 auto;
     color: #ffff;
     font-family: 'Titillium Web', monospace,  serif;
-    font-size: 30px;
-    text-shadow: 1px 1px 0 #56713B, 2px 2px 0 #56713B,3px 3px 0 #56713B, 0 15px 15px #000; 
+    font-size: 40px;
+    text-shadow: 1px 1px 0 #283747, 2px 2px 0 #283747,3px 3px 0 #283747, 0 15px 15px #000; 
      /* text-shadow: /* 0px 0px 0px #777,
                 0px 1px 0px #666,
                 0px 2px 0px #555,
@@ -62,16 +62,23 @@ body {
 
 @media only screen and (max-width: 610px ) {
   .name{
-    font-size:60px;
+    font-size:80px;
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
   .diagonal {
+    margin-left: 25px;
+    margin-right: 25px;
     border-radius: 70px;
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
     animation: color-change-2x 2s linear infinite alternate both;
     background-image: none;
+  }
+
+  .content {
+    font-size: 45px;
+    text-shadow: 1px 1px 0 #1B2631, 2px 2px 0 #1B2631,3px 3px 0 #1B2631, 0 15px 15px #000; 
   }
 }
 
@@ -100,7 +107,7 @@ body {
               transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
               transform-origin: 50% 50%;
-      text-shadow: 1px 1px 0 #56713B, 2px 2px 0 #56713B, 3px 3px 0 #56713B, 4px 4px 0 #56713B, 5px 5px 0 #56713B, 6px 6px 0 #56713B, 7px 7px 0 #56713B, 8px 8px 0 #56713B, 9px 9px 0 #56713B, 0 50px 25px #000;
+      text-shadow: 1px 1px 0 #283747, 2px 2px 0 #283747, 3px 3px 0 #283747, 4px 4px 0 #283747, 5px 5px 0 #283747, 6px 6px 0 #283747, 7px 7px 0 #283747, 8px 8px 0 #283747, 9px 9px 0 #283747, 0 50px 25px #000;
     }
   }
   @keyframes text-pop-up-top {
@@ -116,7 +123,7 @@ body {
               transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
               transform-origin: 50% 50%;
-      text-shadow: 1px 1px 0 #56713B, 2px 2px 0 #56713B, 3px 3px 0 #56713B, 4px 4px 0 #56713B, 5px 5px 0 #56713B, 6px 6px 0 #56713B, 7px 7px 0 #56713B, 8px 8px 0 #56713B, 9px 9px 0 #56713B, 0 50px 25px #000;
+              text-shadow: 1px 1px 0 #283747, 2px 2px 0 #283747, 3px 3px 0 #283747, 4px 4px 0 #283747, 5px 5px 0 #283747, 6px 6px 0 #283747, 7px 7px 0 #283747, 8px 8px 0 #283747, 9px 9px 0 #283747, 0 50px 25px #000;
             }
   }
   
@@ -127,18 +134,18 @@ body {
  */
 @-webkit-keyframes color-change-2x {
         0% {
-          background: #8B9D64;
+          background: #34495E;
         }
         100% {
-          background: #CAE394;
+          background: #283747;
         }
       }
 @keyframes color-change-2x {
         0% {
-          background: #8B9D64;
+          background: #34495E;
         }
         100% {
-          background: #CAE394;
+          background: #283747;
         }
       }
       

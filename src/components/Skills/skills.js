@@ -7,14 +7,13 @@ function Skills() {
         <div id='skills-wrapper'>
             <ScrollAnimation animateIn='fade-in' >
                 <div class='cell small-3 text-center left' id='card'>
-                    <h3 id='skill-titles'><strong>Client Side Strengths</strong></h3>
+                    <h3 id='skill-titles'><strong>Front End Strengths</strong></h3>
                     <div id='centered-list-1'>
                         <ul id='list'>
-                            <li><strong>React.js</strong></li>
-                            <li><strong>HTML5</strong></li>
-                            <li><strong>CSS / Bootstrap / Foundation</strong></li>
                             <li><strong>Javascript</strong></li>
-                            <li><strong>Heroku/Netlify</strong></li>
+                            <li><strong>HTML / CSS</strong></li>
+                            <li><strong>Material UI / Bootstrap</strong></li>
+                            <li><strong>Heroku</strong></li>
                         </ul>
                     </div>
                 </div>
@@ -22,14 +21,12 @@ function Skills() {
 
             <ScrollAnimation animateIn='fade-in' >
                 <div class='cell small-3 text-center right' id='card' >
-                    <h3 id='skill-titles'><strong>Server Side Strengths</strong></h3>
+                    <h3 id='skill-titles'><strong>Back End Strengths</strong></h3>
                     <div id='centered-list-2'>
                         <ul id='list'>
                             <li><strong>Node</strong></li>
                             <li><strong>Express</strong></li>
-                            <li><strong>MySQL</strong></li>
-                            <li><strong>Sequelize</strong></li>
-                            <li><strong>MongoDB</strong></li>
+                            <li><strong>SQL</strong></li>
                         </ul>
                     </div>
                     

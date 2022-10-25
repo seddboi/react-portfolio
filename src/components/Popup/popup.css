@@ -1,8 +1,24 @@
 .subtitles {
 	font-family: 'Titillium Web', monospace,  serif;
+	text-decoration: underline;
 }
 
 .MuiDialog-paper {
 	color: white !important;
 	background-color: #AEB6BF !important;
+}
+
+@media only screen and (max-width: 420px) {
+	.subtitles {
+		font-size: 40px;
+	}
+
+	p {
+		font-size: 30px;
+	}
+
+	li {
+		font-size: 30px;
+		margin-left: 10px;
+	}
 }

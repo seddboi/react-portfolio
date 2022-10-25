@@ -1,61 +1,77 @@
 #skills-wrapper {
         display:flex;
         justify-content: space-evenly;
-        margin-bottom: 700px;
+        margin-bottom: 500px;
 }
 
 #card { 
-        display: inline-block;
-        width: 320px;
-        height: 250px;
-        background: transparent;
+	display: inline-block;
+	width: 330px;
+	height: 250px;
+	background: transparent;
     border: unset;
     /* Photo by Marv Watson on Unsplash */
-    background: #8B9D64;  /* fallback for old browsers */
+    background: #34495E;  /* fallback for old browsers */
     background-image: url('../../custom-pics/mexico1.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    border: 8px solid #ffff;
+    border: 8px solid #ffffff;
     border-radius: 8px;
-    box-shadow: 1px 1px #555, 2px 2px #555, 3px 3px #555, 4px 4px #555, 5px 5px #555, 6px 6px #555, 7px 7px #555, 8px 8px #555, 25px 30px 13px #333;
-    padding: 10px;
+    box-shadow: 1px 1px 0 #283747, 2px 2px #283747, 3px 3px #283747, 4px 4px #283747, 5px 5px #283747, 6px 6px #283747, 7px 7px #283747, 8px 8px #283747, 25px 30px 12px #555;
+    padding-top: 5px;
     margin-bottom: 50px;
 }
 
 #skill-titles {
     color: #ffff;
     font-family: 'Titillium Web', monospace,  serif;
-    font-size: 25px;
+    font-size: 35px;
+	text-decoration: underline;
     /* text-shadow: 0 1px 0 #888, 0 2px 0 #888, 0 3px 0 #888, 0 4px 0 #888, 0 5px 0 #888, 0 20px 15px #000; */
+}
+
+#centered-list-1 {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+#centered-list-2 {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
 
 ul {
     color: #ffff;
     list-style: none;
-        font-size: 20px;
-}
-
-#list {
-    display: inline-block;
-    text-align: center;
+    font-size: 25px;
+	margin-left: 0;
 }
 
 @media only screen and (max-width: 718px){
-        #skills-wrapper{
-                display: flex;
-                align-items: center;
-                align-content: space-between;
-                flex-direction: column;
-        }
+	#skills-wrapper{
+		display: flex;
+		align-items: center;
+		align-content: space-between;
+		flex-direction: column;
+	}
 }
 
-@media only screen and (max-width: 390px) {
-        #card {
-                background: -webkit-linear-gradient(#CAE394, #8B9D64); 
-                background: linear-gradient(#CAE394, #8B9D64);
-        }
+@media only screen and (max-width: 420px) {
+	#card {
+		background: -webkit-linear-gradient(#34495E, #283747); 
+		background: linear-gradient(#34495E, #283747);
+	}
+
+	#card {
+		width: 355px;
+		height: 275px;
+	}
 }
 
 @media (prefers-reduced-motion: no-preference) {
