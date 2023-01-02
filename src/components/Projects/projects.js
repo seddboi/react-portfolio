@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import './projects.css';
 
-import saveshot from './gif/Save-A-Shot.gif';
+// import saveshot from './gif/Save-A-Shot.gif';
 import thoughtmachine from './gif/Thought-Machine.gif';
-import passwordgenerator from './gif/Password Generator.gif';
+import passwordinator from './gif/Passwordinator.gif';
 import weathered from './gif/Weathered.gif';
 
 import {Popup} from '../Popup/popup.js'
@@ -35,12 +35,12 @@ function Projects() {
 			github: 'https://github.com/seddboi/Thought-Machine',
 			link: 'https://seddboi.github.io/Thought-Machine/'
 		},
-		'passgen': {
-			main: 'Here for all of your random password making needs!',
-			tech: ['React', 'Javascript', 'Material UI'],
-			built: 'The password generator began with the idea of multiple choice system, from which I could select my options on the screen, then submit my selections. I began by establishing the text bar that would accept a number input from the user. Below the search bar, I placed the form that includes the possible options for a random password. Using state variables and many lines of jsx, I managed to efficiently maintain selections from the user. After creating the submission button for all of the entries, I created a popup feature using Material UI. This popup displayed the newly generated password, and also allowed you to copy the password to your clipboard, to be used elsewhere. Aside from the random password generation, I also created some user fault prevention to make certain the application does not break. ',
+		'pwdntr': {
+			main: 'An all-in-one password database; made to imitate Google Chrome\'s passwords feature.',
+			tech: ['React', 'Material UI', 'Express', 'Node', 'React Router'],
+			built: 'This application started from the base of the old password generator that I created a while ago. It started off as just the password generation page, which I then just turned into a password generation component. From here, I established some new pages, such as the home page, saved passwords page, login page, signup page, and just a basic password generation page for generating passwords. I then set up React Router, for navigation, as this was intended to be an single page application. For the login and sign up pages, I utilized JSON web tokens for user authentication (also for protection of proteted routes/pages). I then established different express routes that would allow me to provide CRUD funtionality to my app. After providing the ability to save/delete generated passwords, save/delete custom passwords, and the ability to update passwords, I then began to connect decorate everything for production. I hosted my front end, back end, and database all on Railway, as they were one of the few sites who made it very simple. ',
 			github: 'https://github.com/seddboi/passwordinator',
-			link: 'https://seddboi.github.io/passwordinator/'
+			link: 'https://pwdntr-client-production.up.railway.app/'
 		},
 		'saveashot': {
 			main: 'Vaccination Tracker and Vaccination Informational, pending the early stages of the COVID 19 Outbreak',
@@ -59,6 +59,16 @@ function Projects() {
 
 			<div class="callout large row " id="projects-container">
 				<Popup isOpen={isOpen} handleClose={handleClose} information={projectInfo[selectedProject]} />
+				<div class="card p3" id="project-card">
+						<img id="gif" alt="Password Generator Preview" src={passwordinator} />
+						<div id="filter" onClick={() => {
+							setSelectedProject('pwdntr');
+							handleOpen();
+						}}>
+							<h1 id="main-title">Password Generator</h1>
+						</div>
+				</div>
+
 				<div class="card p3" id="project-card">
 					<img id="gif" alt="Weathered App Preview" src={weathered} />
 					<div id="filter" onClick={() => {
@@ -79,19 +89,8 @@ function Projects() {
 						<h1 id="main-title">Thought Machine</h1>
 					</div>
 				</div>
-
-					<div class="card p3" id="project-card">
-						<img id="gif" alt="Password Generator Preview" src={passwordgenerator} />
-						<div id="filter" onClick={() => {
-							setSelectedProject('passgen');
-							handleOpen();
-						}}>
-							<h1 id="main-title">Password Generator</h1>
-						</div>
-					</div>
-
 				
-					<div class="card p1" id="project-card">
+					{/* <div class="card p1" id="project-card">
 						<img id="gif" alt="Save-A-Shot Preview" src={saveshot} />
 						<div id="filter" onClick={() => {
 							setSelectedProject('saveashot');
@@ -99,7 +98,7 @@ function Projects() {
 						}}>
 								<h1 id="main-title">Save-A-Shot</h1>
 						</div>
-					</div>
+					</div> */}
 
 				{/* <div class='card p5' id='project-card'>
                 <img id='gif' src={saveshot} />
