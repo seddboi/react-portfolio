@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './projects.css';
 
-// import saveshot from './gif/Save-A-Shot.gif';
 import thoughtmachine from './gif/Thought-Machine.gif';
 import passwordinator from './gif/Passwordinator.gif';
 import weathered from './gif/Weathered.gif';
