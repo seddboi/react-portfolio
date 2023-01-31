@@ -7,15 +7,15 @@ import Contact from './components/Contact/contact-me';
 import './App.css';
 
 function App() {
-  return (
-    <div>
-      <MainHeader />
-      <Bio />
-      <Skills />
-      <Projects />
-      <Contact />
-    </div>
-  );
+	return (
+		<div>
+			<MainHeader />
+			<Bio />
+			<Skills />
+			<Projects />
+			<Contact />
+		</div>
+	);
 }
 
 export default App;
